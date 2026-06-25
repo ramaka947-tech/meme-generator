@@ -1,16 +1,38 @@
-# React + Vite
+# MèmeForge
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Générateur de mèmes en ligne développé avec React et Vite.
 
-Currently, two official plugins are available:
+##  Démo en ligne
+[meme-generator-roan-iota.vercel.app](https://meme-generator-roan-iota.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Fonctionnalités
 
-## React Compiler
+-  **Upload d'image** depuis son ordinateur (JPG, PNG, GIF)
+- **Ajout de texte** en haut et en bas de l'image
+- **Aperçu en temps réel** des modifications
+- **Personnalisation** : police, taille et couleur du texte
+- **Sauvegarde** dans une galerie persistante (localStorage)
+- **Modification** et **suppression** des mèmes créés
+- **Téléchargement** du mème en PNG
+- **Partage** sur X, Facebook, WhatsApp, Reddit et LinkedIn
+- **Responsive** — fonctionne sur mobile et desktop
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies utilisées
 
-## Expanding the Oxlint configuration
+- React 18
+- Vite
+- HTML5 Canvas API
+- localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Installation locale
+
+```bash
+git clone https://github.com/ramaka947/meme-generator.git
+cd meme-generator
+npm install
+npm run dev
+```
+
+## Auteure
+
+Rama KA — [Portfolio](https://ramaka947-tech.github.io/Mon_Portfolio/)
